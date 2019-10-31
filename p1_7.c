@@ -4,11 +4,5 @@
 
 main()
 {
-	int c;
-	
-	while((c = getchar()) != EOF)
-		;
-	printf("%d",c); // -1
-	
-	
+	printf("EOF is %d\n", EOF); // -1
 } 
